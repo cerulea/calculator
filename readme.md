@@ -1,1 +1,1 @@
-This is a calculator build with HTML, CSS, and JS.
+This is a calculator built with HTML, CSS, and JS.

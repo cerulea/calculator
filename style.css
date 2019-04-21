@@ -12,6 +12,10 @@
     clear: left;
 }
 
+.clear-right {
+    clear: right;
+}
+
 .calculator {
     text-align: center;
 }
@@ -22,4 +26,24 @@
 
 .operation {
     background-color: rgb(215, 0, 0);
+}
+
+.special {
+    background-color: rgb(255, 231, 34);
+}
+
+.screen {
+    display: block;
+    float: left;
+    width: 580px;
+    height: 100px;
+    background-color: rgb(0, 231, 75);
+    margin: 10px;
+}
+
+.calculator {
+    display: flex;
+    background-color: rgb(74, 80, 94);
+    margin: 20px;
+    padding: 20px;
 }

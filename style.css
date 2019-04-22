@@ -18,9 +18,18 @@ body {
     display: block;
     float: left;
     width: 580px;
-    height: 100px;
+    height: 90px;
     background-color: rgb(0, 231, 75);
+    box-sizing: border-box;
     margin: 10px;
+    padding: 10px;
+    text-align: right;
+}
+
+.screen-text {
+    font-family: Courier, "Courier New", monospace;
+    font-size: 3.5em;
+    margin: 5px;
 }
 
 .cell {
@@ -31,6 +40,10 @@ body {
     padding: 10px;
     float: left;
     display: block;
+}
+
+.button-text {
+    font-size: 2.5em;
 }
 
 .clear-left {
